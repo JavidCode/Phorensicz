@@ -1,0 +1,19 @@
+/* Change Background, Border, Font/Color as needed  */
+footer#footer .colophon {
+background:     none repeat scroll 0 0 #83C0E5;
+border-top:     12px solid #E9EAEE;
+color:          #5A5A5A;
+padding:        0;
+}
+/* Change font-size, alignment as needed  */
+footer#footer p, footer#footer a {
+padding:        0px ;
+font-size:      1em ;
+text-align:     center;
+line-height:    1.2em ;
+}
+/* Change font-size of Titles  */
+footer#footer h3{
+font-size:      1em ;
+line-height:    1.2em ;
+}

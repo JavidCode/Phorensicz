@@ -1,0 +1,343 @@
+photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+/**********************
+COLORS
+***********************/
+/* site body */
+
+body {
+  /*background-image: url('../img/GradientBg.jpg');
+  background-repeat: repeat;*/
+  
+  height: 100%;
+}
+/*<!--#footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+}
+
+-->*/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.nate {
+  border: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 1000px;
+  text-align: center;
+  opacity: 0.4;
+}
+
+.enter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}
+/*.banner {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}*/
+
+html {
+  background-color: black;
+  font-family: helvetica;
+}
+
+#container {
+  width: 250px;
+  height: 50px;
+  margin: 50px auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container h1 {
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  color: #356245;
+  padding-bottom: 25px;
+}
+/* selected nav link */
+
+nav a.selected,
+nav a:hover {
+  color: white;
+}
+/* ---------- COPY EVERYTHING BELOW LINE ---------- */
+
+.button {
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  opacity: .5;
+}
+
+.button:hover {
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  opacity: 1;
+  margin-top: -10px;
+  -webkit-box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, .5);
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, .5);
+}
+
+.button img {
+  margin-top: -10px;
+  margin-left: -10px;
+  <!--display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -->
+}
+/* instagram and soundcloud image fix */
+
+#img_2 {
+  margin: 0;
+}
+
+#img_3 {
+  margin: 0.1;
+  top: 1px;
+}
+/**********************
+HEADING
+***********************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+.toplogo {
+  width: 25%;
+  height: auto;
+  <!--margin-left: auto;
+  --> margin-right: auto;
+  text-align: center;
+}
+/*#logo {
+  text-align: center;
+  margin: 0;
+}*/
+
+@font-face {
+  font-family: Xperia;
+  src: url(..Fonts/Xperia.ttf);
+}
+
+h1 {
+  font-family: 'Xperia';
+  margin: 15px 0;
+  font-size: 1.9em;
+  font-weight: normal;
+  line-height: 0.8em;
+  text-align: center;
+  color: #00d0ff;
+  text-decoration: none;
+}
+/*<!--h1 a:link {
+  text-decoration: none;
+}
+
+h1 a:visited {
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: none;
+}
+
+h1 a:active {
+  text-decoration: none;
+}
+
+-->*/
+
+h2 {
+  font-family: 'Xperia';
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  color: #00d0ff;
+}
+
+a {
+  text-decoration: none;
+  /* This removes the inherited underline property that ia being picked up By H1 and H2 */
+}
+
+p {
+  width: 50%;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Xperia';
+  color: #00d0ff;
+}
+/*img.toplogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+/*img.nate
+{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+#top,
+#bottom,
+#left,
+#right {
+  background: #00d0ff;
+  position: fixed;
+}
+
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+}
+
+#top {
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+
+#top {
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
+}
+
+#bottom {
+  left: 0;
+  right: 0;
+  height: 0px;
+}
+
+#top {
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
+}
+/*****************************************
+NAVIGATION
+*****************************************/
+
+@font-face {
+  font-family: Xperia;
+  src: url(..Fonts/Xperia.ttf);
+}
+
+nav {
+  font-family: 'Xperia';
+  margin: 15px 0;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 0.8em;
+  text-align: center;
+  color: #00d0ff;
+  text-decoration: none;
+  display: block;
+}
+
+@font-face {
+  font-family: Xperia;
+  src: url(..Fonts/Xperia.ttf);
+}
+/*#nav2 li {
+  font-family: 'Xperia';
+  color: #00d0ff;
+  text-align: center;
+  width: 100px;
+  list-style-type: none;
+  margin: 0px 0px 10px 20px;
+  border: 1px dotted #ccc;
+  float: left;
+  padding: 2px;
+  width: 100px;
+  display: inline-block;
+}
+*/
+
+nav {
+  font-family: 'Xperia';
+  color: #00d0ff;
+  width: 100%;
+  background-color: black;
+}
+
+nav li {
+  display: inline-block;
+  width: 100px;
+  padding: 15px;
+  margin: 1px;
+  background-color: black;
+  color: #00d0ff;
+}
+
+iframe {
+  display: block;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  border: 0;
+}
+
+.toplogo {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz-Music/master/img/Logo.png);
+  background-repeat: no-repeat;
+}
+
+.toplogo:hover {
+  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz-Music/master/img/Logo1.png);
+}
