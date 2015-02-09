@@ -334,10 +334,10 @@ iframe {
   height: 600px;
   width: 600px;
   margin: 0 auto;
-  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz-Music/master/img/Logo.png);
+  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz-Music-Hosted/gh-pages/img/Logo.png);
   background-repeat: no-repeat;
 }
 
 .toplogo:hover {
-  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz-Music/master/img/Logo1.png);
+  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz-Music-Hosted/gh-pages/img/Logo1.png);
 }
