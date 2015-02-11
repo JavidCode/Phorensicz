@@ -41,6 +41,7 @@ footer {
   width: 1000px;
   text-align: center;
   opacity: 0.4;
+  max-width: 100%;
 }
 
 .enter {
