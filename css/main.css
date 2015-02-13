@@ -335,10 +335,16 @@ iframe {
   height: 600px;
   width: 600px;
   margin: 0 auto;
-  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz-Music-Hosted/gh-pages/img/Logo.png);
+  background-image: url(/img/Logo.png);
   background-repeat: no-repeat;
+/*
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 75%;
+*/
 }
 
 .toplogo:hover {
-  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz-Music-Hosted/gh-pages/img/Logo1.png);
+  background-image: url(/img/Logo1.png);
 }
