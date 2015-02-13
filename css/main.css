@@ -388,7 +388,7 @@ iframe {
     width: auto;
     height: auto;
   }
-/*
+  /*
   .toplogo {
     background-size: 100%;
     margin: 0 auto;
@@ -398,13 +398,13 @@ iframe {
     text-align: center;
     max-width: 100%;
 */
-    /*
+  /*
   border: solid 2px;
   text-shadow: white 0px 0px 2px;
   font-size: 16px;
   background-size: 75%;
 */
-/*
+  /*
   }
 .toplogo:hover {
   background-image: url(/img/Logo1.png);
