@@ -149,7 +149,7 @@ header {
 
 @font-face {
   font-family: Xperia;
-  src: url(..Fonts/Xperia.ttf);
+  src: url("..Fonts/Xperia.ttf");
 }
 
 h1 {
@@ -271,11 +271,6 @@ p {
 NAVIGATION
 *****************************************/
 
-@font-face {
-  font-family: Xperia;
-  src: url(..Fonts/Xperia.ttf);
-}
-
 nav {
   font-family: 'Xperia';
   margin: 15px 0;
@@ -287,10 +282,6 @@ nav {
   text-decoration: none;
   display: block;
 }
-
-@font-face {
-  font-family: Xperia;
-  src: url(..Fonts/Xperia.ttf);
 }
 /*#nav2 li {
   font-family: 'Xperia';
@@ -313,7 +304,6 @@ nav {
   width: 100%;
   background-color: black;
 }
-
 nav li {
   display: inline-block;
   width: 100px;
@@ -322,7 +312,6 @@ nav li {
   background-color: black;
   color: #00d0ff;
 }
-
 iframe {
   display: block;
   width: 800px;
@@ -330,7 +319,6 @@ iframe {
   margin: 0 auto;
   border: 0;
 }
-
 .toplogo {
   height: 300px;
   width: 300px;
@@ -344,13 +332,12 @@ iframe {
   background-size: 75%;
 */
 }
-
 .toplogo:hover {
   background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz/gh-pages/img/Logo3.png);
 }
 /*mobile view*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 375px) {
   iframe {
     max-width: 100%
   }
