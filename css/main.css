@@ -335,7 +335,7 @@ iframe {
   height: 600px;
   width: 600px;
   margin: 0 auto;
-  background-image: url(/img/Logo.png);
+  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz/gh-pages/img/Logo.png);
   background-repeat: no-repeat;
 /*
   border: solid 2px;
@@ -346,5 +346,5 @@ iframe {
 }
 
 .toplogo:hover {
-  background-image: url(/img/Logo1.png);
+  background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz/gh-pages/img/Logo1.png);
 }
