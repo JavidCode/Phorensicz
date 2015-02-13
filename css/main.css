@@ -350,7 +350,6 @@ iframe {
 }
 /*Mobile View*/
 
-/*
 @media only screen and (max-width: 600px) {
   #menu {
     text-align: center;
@@ -371,7 +370,8 @@ iframe {
     margin: 0 auto;
     padding: 0 5%;
     background-color: black;
-    float: left;
+    /*  float: left;*/
+
     vertical-align: middle;
   }
   li img {
@@ -388,8 +388,6 @@ iframe {
     width: auto;
     height: auto;
   }
-*/
-/*
   .toplogo {
     background-size: 100%;
     margin: 0 auto;
@@ -398,7 +396,6 @@ iframe {
     display: block;
     text-align: center;
     max-width: 100%;
-*/
     /*
   border: solid 2px;
   text-shadow: white 0px 0px 2px;
