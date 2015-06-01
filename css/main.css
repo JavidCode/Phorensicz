@@ -335,6 +335,11 @@ iframe {
 .toplogo:hover {
   background-image: url(https://raw.githubusercontent.com/JavidCode/Phorensicz/gh-pages/img/Logo3.png);
 }
+
+.vid {
+    padding-bottom: 100px;
+}
+
 /*mobile view*/
 
 @media only screen and (max-width: 375px) {
