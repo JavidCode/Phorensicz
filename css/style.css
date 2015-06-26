@@ -10,8 +10,8 @@
 
 iframe {
   display: block;
-  width: 800px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   margin: 0 auto;
   border: 0;
 }
@@ -871,9 +871,14 @@ iframe {
   border-bottom: 1px solid tomato;
 }
 .text {
-  color: white;
+  color: black;
   font-weight: 200;
   text-align: center;
+    margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.8;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 .text h1 {
   font-weight: 200;
@@ -883,6 +888,7 @@ iframe {
 .text a {
   color: #fff;
   text-decoration: none;
+
 }
 .text a:hover {
   text-decoration: underline;
