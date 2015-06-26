@@ -13,7 +13,8 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 100%;
+/*  background-size: 100%;*/
+  background-size: contain;
 }
 
 
@@ -349,5 +350,6 @@ iframe {
   iframe {
     max-width: 100%
   }
+  body {background-image: none !important;
 }
-
+}
