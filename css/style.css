@@ -766,9 +766,28 @@ iframe {
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
-body {
+.home {
   font-family: lato;
-  background: url(../img/GOPR0853.JPG) no-repeat center center fixed;
+  background: url(../img/IMG_5770.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+.about {
+  font-family: lato;
+  background: url(../img/GOPR086.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+.contact {
+  font-family: lato;
+  background: url(../img/IMG_5754.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
