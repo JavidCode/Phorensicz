@@ -794,6 +794,11 @@ iframe {
   background-size: cover;
   background-color: black;
 }
+
+.email {
+  color: black !important;
+}
+
 #nav {
   width: 85%;
   background: rgba(49, 49, 49, 0.85);
@@ -886,7 +891,7 @@ iframe {
   text-shadow: 0px 10px 0px rgba(0, 0, 0, 0.15);
 }
 .text a {
-  color: #fff;
+  color: black;
   text-decoration: none;
 
 }
