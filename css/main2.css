@@ -8,11 +8,12 @@ COLORS
 ***********************/
 /* site body */
 
-body {
-  /*background-image: url('../img/GradientBg.jpg');
-  background-repeat: repeat;*/
-  
-  height: 100%;
+section {
+  background-image: url('../img/IMG_5770.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
 }
 
 
@@ -197,14 +198,14 @@ a {
   /* This removes the inherited underline property that ia being picked up By H1 and H2 */
 }
 
-p {
+p, h3 {
   width: 50%;
   display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Xperia';
-  color: #00d0ff;
+  color: white;
 }
 /*img.toplogo {
   display: block;
