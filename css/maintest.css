@@ -273,6 +273,7 @@ p {
 NAVIGATION
 *****************************************/
 
+/*
 nav {
   font-family: 'Xperia';
   margin: 15px 0;
@@ -284,6 +285,7 @@ nav {
   text-decoration: none;
   display: block;
 }
+*/
 }
 /*#nav2 li {
   font-family: 'Xperia';
@@ -300,6 +302,7 @@ nav {
 }
 */
 
+/*
 nav {
   font-family: 'Xperia';
   color: #00d0ff;
@@ -314,6 +317,7 @@ nav li {
   background-color: black;
   color: #00d0ff;
 }
+*/
 iframe {
   display: block;
   width: 800px;
